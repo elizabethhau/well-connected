@@ -1,0 +1,58 @@
+/* Elizabeth Hau
+ * WellConnected
+ * Beta Version
+ * CSS styling file
+ */
+
+input,select,td,textarea {
+
+    font-family: Verdana,"Lucida Sans Unicode", "Lucida Grande","Open Sans",sans-serif;
+}
+
+body {
+	font-family: Verdana,"Lucida Sans Unicode", "Lucida Grande","Open Sans",sans-serif;
+	background-image: url("white-background.jpg");
+	/* background-image: url("light-blue-background.jpg");
+	 light blue: http://www.freebiesgallery.com/wp-content/uploads/2013/08/light-blue-background.jpg;
+	 * blue: http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg;
+	 */
+	background-size: cover;
+
+}
+
+#heading {
+	margin-top: 20px;
+	padding:5px;
+	width: 45%;
+
+}
+
+#logo {
+	margin-bottom: 10px;
+}
+
+tr.spaceUnder > td
+{
+  padding-bottom: 1em;
+}
+
+/* unvisited link*/
+a:link {
+	color:#0033FF; /* dark blue */
+}
+
+/* visited link */
+a:visited {
+    color: #5A00AD; /* dark purple */
+}
+
+/* mouse over link */
+a:hover {
+	font-weight: bold;
+    color: #4D85FF; /* lighter blue */
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
